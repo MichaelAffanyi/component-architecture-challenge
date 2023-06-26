@@ -1,0 +1,43 @@
+.form {
+    width: 300px;
+    display: flex; 
+    flex-direction: column;
+    gap: 23px;
+    margin-top: 69px;
+}
+
+.inputField {
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    width: 100%;
+    color: #A6A6A6;
+}
+
+.inputField input {
+    height: 40px;
+    outline: none;
+    padding: 8px 16px;
+    border: 2px solid #A6A6A6;
+    border-radius: 4px;
+}
+
+.google-auth {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 2px solid #A6A6A6;
+    border-radius: 4px;
+    padding-left: 32px;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.login-link {
+    color: #0267FF;
+    cursor: pointer;
+}
+
+.haveAccount {
+    text-align: center;
+}

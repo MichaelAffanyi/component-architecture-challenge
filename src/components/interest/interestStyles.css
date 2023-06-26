@@ -1,0 +1,32 @@
+.addSocialInterest {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.interest-button {
+  width: 232px;
+  display: flex;
+  padding: 6px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 1px solid #b3b3b3;
+  background: transparent;
+  cursor: pointer;
+}
+
+.bg-blue {
+    background: #0267FF;
+    color: white;
+    border: 1px solid #0267FF;
+}
+
+.interests {
+    margin: 33px auto 131px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
