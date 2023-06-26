@@ -4,7 +4,6 @@ import addphoto from "./assets/addphoto.png";
 import socialinterest from "./assets/interest3.png";
 import hobbies from "./assets/interest4.png";
 import congrats from "./assets/lastpage.png";
-import socialIntersts from "./assets/interest3.png";
 import smallcircle from "./assets/smallcircle.png";
 import mediumcircle from "./assets/mediumcircle.png";
 import bigcircle from "./assets/bigcircle.png";
@@ -16,19 +15,12 @@ import Hobbies from "./components/hobbies/Hobbies";
 import Congrats from "./components/congrats/Congrats";
 import { useSelector } from "react-redux";
 import Home from "./components/Home";
-import { useEffect } from "react";
 
 const App = () => {
   const {page: {page}} = useSelector((state) => state.page);
 
   let Component = null;
-  // useEffect(() => {
-  //   if (page === "home") {
-  //     console.log(page);
-  //     return;
-  //   }
-  // }, [page]);
-  console.log(page)
+
   if (page !== "home") {
     Component = getComponent()[page].component;
   }

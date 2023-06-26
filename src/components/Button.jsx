@@ -1,7 +1,7 @@
 import './styles.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { setPage } from '../feature/pageSlice'
-// eslint-disable-next-line react/prop-types
+
 const Button = ({value}) => {
   const {page: {page}} = useSelector(state => state.page)
   const dispatch = useDispatch()
